@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hustler Adult SHOP</title>
+    <style>
+
+
+
+
+ /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Header styling */
+        header {
+            background-color:BLACK;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo styling */
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Navigation menu styling */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff9800;
+        }
+
+        /* Responsive menu for small screens */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<style>
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+overflow: hidden;
+}
+#myVideo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+object-fit: cover; /* Ensures video covers the screen */
+z-index: -1; /* Push video behind content */
+}
+.content {
+position: fixed;
+bottom: 0;
+background: rgba(0,0,0,0.5);
+color: #f1f1f1;
+width: 100%;
+padding: 20px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+<source src="video.mp4" type="video/mp4">
+Your browser does not support HTML5 video
+</video>
+ 
+</body>
+
+ <header> 
+     
+   <div class="logo"> <img src="HUSTLER.PNG" alt="cover image" width="1350" height="500"></div>
+        <nav>
+ 
+            <ul>
+                <li><a href="#home">Home</a></li>-
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+      </ul>
+        </nav>
+     </header>
+
+<main>
+    
+<left><section id="home">
+    <h1><a href="man products.html" target="_blank">
+    <img src="TOYS FOR HIM.PNG" alt="Example Image" width="200" height="200" style="border:0;"></a>
+    </h1>
+  <p>.</p></left>
+    </section>
+
+
+<right><section id="home">
+    <h1><a href="woman products.html" target="_blank">
+    <img src="tfh.PNG" alt="Example Image" width="200" height="200" style="border:0;"></a>
+    </h1></right>
+    <p>.</p>    
+    </section>
+
+
+
+<left><section><section id="home">
+    <h1><a href="woman's lyngery.html" target="_blank">
+    <img src="LYNGERY.PNG" alt="Example Image" width="200" height="200" style="border:0;"></a>
+    </h1></left>  
+    <p>.</p> 
+    </section>
+
+
+  <right><section id="home">
+    <h1><a href="lyngery for him.html" target="_blank">
+    <img src="him.PNG" alt="Example Image" width="200" height="200" style="border:0;"></a>
+    </h1></right>
+  <p>.</p> 
+  </section>
+
+
+<right><section id="home">
+    <h1><a href="Toys For Couples.html" target="_blank">
+    <img src="toys for couples.PNG" alt="Example Image" width="200" height="200" style="border:0;"></a>
+    </h1></right>
+  <p>.</p> 
+  </section>
+
+
+
+<right>
+<!-- Video Background -->
+    <video autoplay muted loop id="bg-video">
+     <source src="video.mp4" type="video/mp4">
+     Your browser does not support HTML5 video.
+     </video>
+     <!-- Content Overlay -->
+    <div class="content">
+    </right>
+   
+
+ </main>
+
+   
+</body>
+</html>
